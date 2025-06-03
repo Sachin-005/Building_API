@@ -10,3 +10,5 @@ Provide a movie api for reactjs app
 5. `git commit -m "Your Message" `
 6. `git push -u origin master` 
     or `git push`
+
+  mongodb+srv://sachinsenthilvel005:NeNjQESKaEjgvrOU@cluster0.lkxuhll.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

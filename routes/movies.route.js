@@ -1,5 +1,10 @@
 import express from 'express'
-import {MovieCretae, MovieDelete, MovieIndex, MovieUpdate} from '../controllers/movies.controllers.js'
+import { MovieCreate, 
+    MovieDelete, 
+    MovieIndex, 
+    MovieUpdate 
+} from '../controllers/movies.controller.js';
+
 // CRUD functionality of movies
 // CLIENT => MIDDLEWARE=>SERVER
 
@@ -7,7 +12,7 @@ const router = express.Router()
 // R - Reading
 router.get('/',MovieIndex)
 // C - For creating router
-router.post('/',MovieCretae)
+router.post('/',MovieCreate)
 
 // U - for updating movies
 router.put('/:id', MovieUpdate)
